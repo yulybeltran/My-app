@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.card-container{
+  color: #000000;
+  background-color: #F32929;
+  max-width: 250px;
+  width: 100%;
+  text-align:center;
+  margin: 20px;
+  padding: 20px 10px;
+  border-radius:10px;
+  box-shadow:  2px 2px 4px #000000;
+}
+
+.card-img{
+    max-width: 200px;
+    width: 100%;
+    border-radius:10px;
+    box-shadow:  2px 2px 4px #000000;
+}
+
+.card-info{
+    text-shadow:2px 2px 4px #000000;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+
+.character-buton{
+ padding: 10px;
+ border-radius:5px;
+ text-shadow:2px 2px 4px #000000;
+ font-family: 'Mochiy Pop P One', sans-serif;
+ box-shadow:  2px 2px 4px #000000;
+}
+
+
+.character-buton:hover{
+background-color: #000000;
+color: #FFFFFF;
+
+}
