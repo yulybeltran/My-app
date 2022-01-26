@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 .card-container{
-  color: #000000;
-  background-color: #F32929;
-  max-width: 250px;
+  color: #ffffff;
+  max-width: 200px;
   width: 100%;
   text-align:center;
   margin: 20px;
-  padding: 20px 10px;
+  padding: 20px ;
   border-radius:10px;
   box-shadow:  2px 2px 4px #000000;
 }
@@ -16,7 +15,9 @@
     max-width: 200px;
     width: 100%;
     border-radius:10px;
-    box-shadow:  2px 2px 4px #000000;
+    box-shadow:  2px 2px 4px #ffffffff;
+    border: 1px solid #ffffff;
+   
 }
 
 .card-info{
