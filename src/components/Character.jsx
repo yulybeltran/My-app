@@ -20,13 +20,13 @@ function Character ({characterObject}) {
         Human: img1,
         Alien: img3,
         Humanoid: img2,
-        Robot: img4,
         "Mythological Creature": img5,
         unknown: img6,
         Poopybutthole: img7,
         Cronenberg: img8, 
         Animal: img9,
         Disease:img10,
+        Robot: img4,
         
     }
 
