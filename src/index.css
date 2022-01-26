@@ -1,5 +1,11 @@
 body{
-  padding:0;
+  padding:10px;
   margin:0;
   box-sizing: border-box;
+  background-image: url(../src/styles/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  text-align: center;
 }
