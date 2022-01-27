@@ -1,3 +1,3 @@
 # Getting Started with Create React App
 
-Mi primera api
+Proyecto Rick and Morty
