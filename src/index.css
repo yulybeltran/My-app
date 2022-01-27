@@ -1,8 +1,8 @@
 body{
-  padding:10px;
+  padding:20px;
   margin:0;
   box-sizing: border-box;
-  background-image: url(../src/styles/fondo.jpg);
+  background-image: url(../src/styles/images/fondo.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;

@@ -1,13 +1,13 @@
 
-import './App.css';
+import '../index.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom"
-import {Navbar} from "./components/Navbar"
-import { Home } from './pages/Home';
-import { Episodes } from './pages/Episodes';
-import { Locations } from './pages/Locations';
-import {Error} from './pages/Error';
-import {CharactersPage} from './pages/CharactersPage';
-import { Footer } from './components/Footer';
+import {Navbar} from "./Navbar"
+import { Home } from '../pages/Home';
+import { Episodes } from '../pages/Episodes';
+import { Locations } from '../pages/Locations';
+import {Error} from '../pages/Error';
+import {CharactersPage} from '../pages/CharactersPage';
+import { Footer } from './Footer';
 
 
 function App() {

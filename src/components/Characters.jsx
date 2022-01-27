@@ -1,7 +1,7 @@
 
 import { Character } from "./Character";
 import { useEffect, useState } from "react";
-import '../styles/characters.css';
+import style from'../styles/characters.module.css';
 import { ChangePage } from "./Changepage";
 
 function Characters() {
@@ -29,7 +29,7 @@ function Characters() {
 
     return (
         <>
-            <div className="container-card">
+            <div className={style.containerCard}>
                 {charactersResults.map(character => (
                     <Character
                     characterObject={character}
@@ -39,7 +39,7 @@ function Characters() {
 
             </div>
 
-            <div className="containerButon">
+            <div className={style.containerButon}>
             <ChangePage
             apiInfo={apiInfo}
             setApiCharacter={setApiCharacter}

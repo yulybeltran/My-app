@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
-.card-container{
+.cardContainer{
   color: #ffffff;
   max-width: 200px;
   width: 100%;
@@ -12,7 +12,7 @@
 
 }
 
-.card-img{
+.cardImg{
     max-width: 200px;
     width: 100%;
     border-radius:10px;
@@ -21,13 +21,13 @@
    
 }
 
-.card-info{
+.cardInfo{
     text-shadow:2px 2px 4px #000000;
     font-family: 'Mochiy Pop P One', sans-serif;
     
 }
 
-.character-buton{
+.characterButon{
  padding: 10px;
  border-radius:5px;
  text-shadow:2px 2px 4px #000000;
@@ -36,7 +36,7 @@
 }
 
 
-.character-buton:hover{
+.characterButon:hover{
 background-color: #000000;
 color: #FFFFFF;
 

@@ -1,14 +1,14 @@
-import "../styles/character.css"
-import img1 from "../styles/img.jpg"
-import img2 from "../styles/img2.jpg"
-import img3 from "../styles/img3.jpg"
-import img4 from "../styles/img4.jpg"
-import img5 from "../styles/img5.png"
-import img6 from "../styles/img6.jpg"
-import img7 from "../styles/img7.jpg"
-import img8 from "../styles/img8.jpg"
-import img9 from "../styles/img9.png"
-import img10 from "../styles/img10.jpg"
+import style from '../styles/character.module.css'
+import img1 from "../styles/images/img.jpg"
+import img2 from "../styles/images/img2.jpg"
+import img3 from "../styles/images/img3.jpg"
+import img4 from "../styles/images/img4.jpg"
+import img5 from "../styles/images/img5.png"
+import img6 from "../styles/images/img6.jpg"
+import img7 from "../styles/images/img7.jpg"
+import img8 from "../styles/images/img8.jpg"
+import img9 from "../styles/images/img9.png"
+import img10 from "../styles/images/img10.jpg"
 
 
 
@@ -32,17 +32,17 @@ function Character ({characterObject}) {
 
     
     return(
-        <div className="card-container" style={{
+        <div className={style.cardContainer} style={{
             backgroundImage: `url(${colors[character.species]})`,
 
         }}>
-            <img className="card-img" src={character.image} alt="este es un personaje"></img>
+            <img className={style.cardImg} src={character.image} alt="este es un personaje"></img>
 
-            <div className="card-info">
+            <div className={style.cardInfo}>
                 <h2>{character.name}</h2>
                 <p>{character.species}</p>
             </div>
-            <button className="character-buton">Episodios</button>
+            <button className={style.characterButon}>Episodios</button>
         </div>
     )
 }
