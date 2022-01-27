@@ -1,53 +1,46 @@
-
 import { Character } from "./Character";
 import { useEffect, useState } from "react";
-import style from'../styles/characters.module.css';
+import style from "../styles/characters.module.css";
 import { ChangePage } from "./Changepage";
 
 function Characters() {
-    // useState -> parametro1 : estado | parametro2 : nos pertmite cambiar el estado
-    const [apiCharacter, setApiCharacter] = useState("https://rickandmortyapi.com/api/character")
-    const [charactersResults, setCharactersResults] = useState([])
-    const [apiInfo, setApiInfo] = useState([])
+  // useState -> parametro1 : estado | parametro2 : nos pertmite cambiar el estado
+  const [apiCharacter, setApiCharacter] = useState(
+    "https://rickandmortyapi.com/api/character"
+  );
+  const [charactersResults, setCharactersResults] = useState([]);
+  const [apiInfo, setApiInfo] = useState([]);
 
-    //UseEffect [] -> antes de que los componentes se rendericen
-    //[parametro, parametro2...] -> se va a volver a ejecutar cada vez que lo que haya dentro cambie
-    useEffect(() => {
-      
-        const fetchData = async () => {
-            const getData = await fetch(apiCharacter)
-            const jsonData = await getData.json()
-            setCharactersResults(jsonData.results)
-            setApiInfo(jsonData.info)
-            
-            // == === comparacion | = asignar un valor
+  //UseEffect [] -> antes de que los componentes se rendericen
+  //[parametro, parametro2...] -> se va a volver a ejecutar cada vez que lo que haya dentro cambie
+  useEffect(() => {
+    const fetchData = async () => {
+      const getData = await fetch(apiCharacter);
+      const jsonData = await getData.json();
+      setCharactersResults(jsonData.results);
+      setApiInfo(jsonData.info);
 
-            
-        }
-        fetchData()
-    }, [apiCharacter])
+      // == === comparacion | = asignar un valor
+    };
+    fetchData();
+  }, [apiCharacter]);
 
-    return (
-        <>
-            <div className={style.containerCard}>
-                {charactersResults.map(character => (
-                    <Character
-                    characterObject={character}
-                        key={character.id}
-                    />
-                ))}
+  return (
+    <>
+      <div className={style.containerButon}>
+        <ChangePage apiInfo={apiInfo} setApiCharacter={setApiCharacter} />
+      </div>
+      <div className={style.containerCard}>
+        {charactersResults.map((character) => (
+          <Character characterObject={character} key={character.id} />
+        ))}
+      </div>
 
-            </div>
-
-            <div className={style.containerButon}>
-            <ChangePage
-            apiInfo={apiInfo}
-            setApiCharacter={setApiCharacter}
-            
-            />
-          </div>
-        </>
-    );
+      <div className={style.containerButon}>
+        <ChangePage apiInfo={apiInfo} setApiCharacter={setApiCharacter} />
+      </div>
+    </>
+  );
 }
 
 export { Characters };

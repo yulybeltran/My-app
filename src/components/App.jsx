@@ -22,7 +22,6 @@ function App() {
       <Route path="locations" element={<Locations/>}/>
       <Route path="*" element={<Error/>}/>
       
-
    </Routes>
    <Footer/>
    </BrowserRouter>
