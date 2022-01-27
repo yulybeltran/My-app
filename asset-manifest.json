@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yulybeltran.github.io/My-app/static/css/main.860b64db.css",
+    "main.js": "/yulybeltran.github.io/My-app/static/js/main.623f12ff.js",
+    "static/media/img5.png": "/yulybeltran.github.io/My-app/static/media/img5.4de8cae9961269c805e0.png",
+    "static/media/img9.png": "/yulybeltran.github.io/My-app/static/media/img9.b615ed0552ecd6c4226d.png",
+    "static/media/img6.jpg": "/yulybeltran.github.io/My-app/static/media/img6.63e86ea496f7d491eb23.jpg",
+    "static/media/401155.png": "/yulybeltran.github.io/My-app/static/media/401155.1688e49eb88eddbeea57.png",
+    "static/media/img10.jpg": "/yulybeltran.github.io/My-app/static/media/img10.a06676a6aeeea9ef22b1.jpg",
+    "static/media/img4.jpg": "/yulybeltran.github.io/My-app/static/media/img4.c190232eaf7d0b787aed.jpg",
+    "static/media/img2.jpg": "/yulybeltran.github.io/My-app/static/media/img2.2d8b3fb6c731aa35c94d.jpg",
+    "static/media/img8.jpg": "/yulybeltran.github.io/My-app/static/media/img8.666c729c58ec74653dac.jpg",
+    "static/media/img.jpg": "/yulybeltran.github.io/My-app/static/media/img.4a286509a04eba2ed900.jpg",
+    "static/media/img7.jpg": "/yulybeltran.github.io/My-app/static/media/img7.0f5fb0a1a44768e91d66.jpg",
+    "static/media/fondo.jpg": "/yulybeltran.github.io/My-app/static/media/fondo.4c113813cc1009fd4af4.jpg",
+    "static/media/img3.jpg": "/yulybeltran.github.io/My-app/static/media/img3.e5f2354098aa10c601a4.jpg",
+    "index.html": "/yulybeltran.github.io/My-app/index.html",
+    "main.860b64db.css.map": "/yulybeltran.github.io/My-app/static/css/main.860b64db.css.map",
+    "main.623f12ff.js.map": "/yulybeltran.github.io/My-app/static/js/main.623f12ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860b64db.css",
+    "static/js/main.623f12ff.js"
+  ]
+}
