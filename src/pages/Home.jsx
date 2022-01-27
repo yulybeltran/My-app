@@ -1,6 +1,8 @@
+import {Inicio} from '../components/Inicio';
+
 function Home(){
     return(
-        <div>Home de Rick y Morty</div>
+        <Inicio />
     )
 }
 
