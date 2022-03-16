@@ -7,6 +7,5 @@ Consumo de la Api Rick and Morty
 
 ## Instalación
 
-
 1. `npm install`
 2. `npm start`
